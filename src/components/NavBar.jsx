@@ -5,7 +5,7 @@ import WLogo from '/w-logo.webp'
 
 const NavBar = () => {
   return (
-    <nav className='flex justify-between w-full bg-custom-dark-blue text-custom-white items-center py-4 px-16'>
+    <nav className='flex justify-between w-full border-b-2 border-custom-light-blue text-custom-white items-center py-4 px-16'>
       <div>
         <Link to='/'>
           <img
