@@ -2,6 +2,7 @@ import React from 'react';
 import WesllenIcon from '../../../assets/wesllen-cpu-icon.webp';
 import Resume from '../../../../Documents/wesllen_araujo_resume.pdf';
 import About from '../About';
+import Skills from '../Skills';
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       </div>
       <div className='flex flex-col gap-16'>
         <About />
+        <Skills />
       </div>
     </div>
   );
