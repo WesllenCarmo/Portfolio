@@ -2,8 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='about' className='flex w-full flex-col items-center gap-16 px-30 
-    '>
+    <section id='about' className='flex w-full flex-col items-center gap-16 px-30'>
       <h2 className='text-custom-light-blue text-5xl font-bold'>About Me</h2>
       <div className='flex justify-around text-custom-white text-3xl'>
         <p className='w-2/5'>I'm a Front End Web Developer and also a Computer Network Technician who is passionate about <span className='text-custom-blue'>understanding & building system</span>.</p>
