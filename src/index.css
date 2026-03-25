@@ -6,6 +6,9 @@
   --color-custom-light-blue: #00A7E1;
   --color-custom-white: #EDFDFF;
 }
+* {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--color-custom-dark-blue);
 }

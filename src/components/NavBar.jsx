@@ -17,10 +17,10 @@ const NavBar = () => {
       </div>
       <div className='flex gap-16 text-2xl'>
         <Link to='/' className='hover:text-custom-blue transition duration-300'>Home</Link>
-        <Link to='/#about' className='hover:text-custom-blue transition duration-300'>About me</Link>
-        <Link to='/#skills' className='hover:text-custom-blue transition duration-300'>Skills</Link>
-        <Link to='/#projects' className='hover:text-custom-blue transition duration-300'>Projects</Link>
-        <Link to='/#contact' className='hover:text-custom-blue transition duration-300'>Contact</Link>
+        <a href='/#about' className='hover:text-custom-blue transition duration-300'>About me</a>
+        <a href='/#skills' className='hover:text-custom-blue transition duration-300'>Skills</a>
+        <a href='/#projects' className='hover:text-custom-blue transition duration-300'>Projects</a>
+        <a href='/#contact' className='hover:text-custom-blue transition duration-300'>Contact</a>
       </div>
       
     </nav>
