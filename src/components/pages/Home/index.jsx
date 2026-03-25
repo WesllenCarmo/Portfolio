@@ -26,7 +26,9 @@ const Home = () => {
           className='w-1/3'
         />
       </div>
-      <About />
+      <div className='flex flex-col gap-16'>
+        <About />
+      </div>
     </div>
   );
 };
