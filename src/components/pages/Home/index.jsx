@@ -8,6 +8,7 @@ import Projects from '../Projects';
 import Contact from '../Contact';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
+import BackToTopButton from '../BackToTopButton';
 
 const Home = () => {
   return (
@@ -52,6 +53,7 @@ const Home = () => {
           <a href='mailto:wesllenaraujo.developer@gmail.com' target='_blank'><SiGmail className='text-5xl text-custom-white' /></a>
         </div>
       </footer>
+      <BackToTopButton />
     </div>
   );
 };
