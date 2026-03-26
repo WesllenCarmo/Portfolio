@@ -4,44 +4,52 @@ import WeatherWebPreview from '../../../assets/weather-preview.webp'
 
 const Projects = () => {
   return (
-    <section id='projcets'>
-      <h2>Projects</h2>
-      <div>
-        <img src={TattuuWebPreview} alt="Image of Tattuu's website, a page with a tattoer working on someone's arm and a text saying 'customised tattoos'." />
-        <div>
-          <h3>Tattuu</h3>
-          <p>Tattuu is a fictional website made of a tattoo studio with professional photographs. The project was made in order to achieve a better understanding of web design.</p>
-          <ul>
-            <li>Github repository: <a href='https://github.com/WesllenCarmo/Tattuu'>https://github.com/WesllenCarmo/Tattuu</a></li>
-            <li>Deploy: <a href='https://wesllencarmo.github.io/Tattuu/'>https://wesllencarmo.github.io/Tattuu/</a></li>
+    <section id='projects' className='flex flex-col gap-16 text-custom-white'>
+      <h2 className='text-5xl font-bold text-custom-light-blue self-center'>Projects</h2>
+      <div className='flex w-full justify-center gap-24'>
+        <img
+          src={TattuuWebPreview}
+          alt="Image of Tattuu's website, a page with a tattoer working on someone's arm and a text saying 'customised tattoos'."
+          className='w-200 shadow-xl shadow-custom-light-blue'
+        />
+        <div className='flex flex-col w-2/5 gap-6'>
+          <h2 className='text-4xl text-custom-blue font-bold'>Tattuu</h2>
+          <p className='text-2xl'>Tattuu is a fictional website made of a tattoo studio with professional photographs. The project was made in order to achieve a better understanding of web design.</p>
+          <ul className='list-disc ml-8 text-2xl'>
+            <li>Github repository: <a href='https://github.com/WesllenCarmo/Tattuu' className='underline hover:text-custom-blue transition duration-400'>https://github.com/WesllenCarmo/Tattuu</a></li>
+            <li>Deploy: <a href='https://wesllencarmo.github.io/Tattuu/' className='underline hover:text-custom-blue transition duration-400'>https://wesllencarmo.github.io/Tattuu/</a></li>
           </ul>
-          <div>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>JavaScript</p>
-            <p>Figma</p>
-            <p>Git</p>
-            <p>GitHub</p>
-            <p>Responsive Web Design</p>
+          <div className='text-2xl flex flex-wrap gap-6 text-custom-blue'>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>HTML5</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>CSS3</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>JavaScript</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>Figma</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>Git</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>GitHub</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>Responsive Web Design</p>
           </div>
         </div>
       </div>
-      <div>
-        <img src={WeatherWebPreview} alt="Image of a forecast website, a page with the forecast of a city called 'Serra Talhada'." />
-        <div>
-          <h3>Tattuu</h3>
-          <p>Forecast-DevClub is a website built with React that uses the API OpenWeather in order to provide the forecast for the user's selected city. The project was made during a lesson of <a href='https://www.youtube.com/@canaldevclub'>DevClub Youtube profile</a>.</p>
-          <ul>
-            <li>Github repository: <a href='https://github.com/WesllenCarmo/forecast-DevClub'>https://github.com/WesllenCarmo/forecast-DevClub</a></li>
+      <div className='flex w-full justify-center gap-24'>
+        <img
+          src={WeatherWebPreview}
+          alt="Image of Tattuu's website, a page with a tattoer working on someone's arm and a text saying 'customised tattoos'."
+          className='w-200 shadow-xl shadow-custom-light-blue'
+        />
+        <div className='flex flex-col w-2/5 gap-6'>
+          <h2 className='text-4xl text-custom-blue font-bold'>Forecast-DevClub</h2>
+          <p className='text-2xl'>Forecast-DevClub is a website built with React that uses the API OpenWeather in order to provide the forecast for the user's selected city. The project was made during a lesson of <a href='https://www.youtube.com/@canaldevclub' className='underline hover:text-custom-blue transition duration-400'>DevClub Youtube profile</a>.</p>
+          <ul className='list-disc ml-8 text-2xl'>
+            <li>Github repository: <a href='https://github.com/WesllenCarmo/forecast-DevClub' className='underline hover:text-custom-blue transition duration-400'>https://github.com/WesllenCarmo/forecast-DevClub</a></li>
           </ul>
-          <div>
-            <p>React.js</p>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>JavaScript</p>
-            <p>Git</p>
-            <p>GitHub</p>
-            <p>Responsive Web Design</p>
+          <div className='text-2xl flex flex-wrap gap-6 text-custom-blue'>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>React.js</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>HTML5</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>CSS3</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>JavaScript</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>Git</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>GitHub</p>
+            <p className='border-2 border-custom-blue px-4 py-1 rounded-xl'>Responsive Web Design</p>
           </div>
         </div>
       </div>
