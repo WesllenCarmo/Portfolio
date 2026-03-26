@@ -13,12 +13,12 @@ import BackToTopButton from '../BackToTopButton';
 const Home = () => {
   return (
     <div>
-      <section id='home' className="flex font-bold w-full h-screen justify-between px-52 items-center">
+      <section id='home' className="flex font-bold w-full h-screen justify-between px-52 items-center flex-wrap md:py-16 md:gap-24 md:h-fit md:px-20 md:justify-center">
         <div className='flex flex-col gap-4'>
           <h3 className='text-3xl text-custom-blue'>Hello, World!</h3>
           <h2 className='text-5xl text-custom-white'>I'm Wesllen do Carmo</h2>
           <h1 className='text-8xl text-custom-light-blue'>Front End <br /> Web Developer</h1>
-          <div className='flex justify-between flex-wrap'>
+          <div className='flex justify-between flex-wrap md:gap-8'>
             <a href='/#contact' className='bg-custom-light-blue border-4 border-custom-light-blue text-custom-dark-blue text-3xl font-bold px-10 py-2 rounded-xl transition duration-400 hover:bg-custom-dark-blue hover:text-custom-light-blue'>
               Contact me
             </a>
@@ -30,7 +30,7 @@ const Home = () => {
         <img
           src={WesllenIcon}
           alt="Wesllen image: A brown man with black glasses, dark brown eyes and coily hair."
-          className='w-1/3'
+          className='w-150'
         />
       </section>
       <div className='flex flex-col gap-16 mb-8'>
