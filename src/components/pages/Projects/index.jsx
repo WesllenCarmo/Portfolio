@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id='projects' className='flex flex-col gap-16 text-custom-white'>
       <h2 className='text-5xl font-bold text-custom-light-blue self-center'>Projects</h2>
-      <div className='flex w-full justify-center gap-24'>
+      <div className='flex w-full justify-center gap-24 flex-col lg:flex-row'>
         <img
           src={TattuuWebPreview}
           alt="Image of Tattuu's website, a page with a tattoer working on someone's arm and a text saying 'customised tattoos'."
@@ -30,7 +30,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className='flex w-full justify-center gap-24'>
+      <div className='flex flex-col w-full justify-center gap-24 lg:flex-row'>
         <img
           src={WeatherWebPreview}
           alt="Image of Tattuu's website, a page with a tattoer working on someone's arm and a text saying 'customised tattoos'."
