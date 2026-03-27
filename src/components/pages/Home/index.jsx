@@ -13,7 +13,7 @@ import BackToTopButton from '../BackToTopButton';
 const Home = () => {
   return (
     <div>
-      <section id='home' className="flex flex-col lg:flex-row lg:justify-around lg:items-center py-20 gap-24 lg:gap-0 lg:py-64 font-bold w-full items-center flex-wrap">
+      <section id='home' className="flex flex-col lg:flex-row lg:justify-around lg:items-center py-20 gap-24 lg:gap-0 lg:py-32 font-bold w-full items-center flex-wrap">
         <div className='flex flex-col gap-4 w-fit items-center lg:items-start'>
           <h3 className='text-2xl lg:text-3xl text-custom-blue'>Hello, World!</h3>
           <h2 className='text-3xl lg:text-5xl text-custom-white'>I'm Wesllen do Carmo</h2>
@@ -30,7 +30,7 @@ const Home = () => {
         <img
           src={WesllenIcon}
           alt="Wesllen image: A brown man with black glasses, dark brown eyes and coily hair."
-          className='w-100'
+          className='w-90 md:w-130 lg:w-150'
         />
       </section>
       <div className='flex flex-col gap-16 mb-8'>
