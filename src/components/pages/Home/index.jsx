@@ -48,9 +48,9 @@ const Home = () => {
           />
         </a>
         <div className='flex gap-8'>
-          <a href='https://github.com/WesllenCarmo' target='_blank'><FaGithub className='text-5xl text-custom-white' /></a>
-          <a href='https://www.linkedin.com/in/wesllen-araujo0907/' target='_blank'><FaLinkedin className='text-5xl text-custom-white' /></a>
-          <a href='mailto:wesllenaraujo.developer@gmail.com' target='_blank'><SiGmail className='text-5xl text-custom-white' /></a>
+          <a href='https://github.com/WesllenCarmo' target='_blank'><FaGithub className='text-3xl text-custom-white' /></a>
+          <a href='https://www.linkedin.com/in/wesllen-araujo0907/' target='_blank'><FaLinkedin className='text-3xl text-custom-white' /></a>
+          <a href='mailto:wesllenaraujo.developer@gmail.com' target='_blank'><SiGmail className='text-3xl text-custom-white' /></a>
         </div>
       </footer>
       <BackToTopButton />
