@@ -13,7 +13,7 @@ import BackToTopButton from '../BackToTopButton';
 const Home = () => {
   return (
     <div>
-      <section id='home' className="flex flex-col lg:flex-row lg:justify-around lg:items-center py-20 gap-24 lg:gap-0 lg:py-32 font-bold w-full items-center flex-wrap">
+      <section role='banner' id='home' className="flex flex-col lg:flex-row lg:justify-around lg:items-center py-20 gap-24 lg:gap-0 lg:py-32 font-bold w-full items-center flex-wrap">
         <div className='flex flex-col gap-4 w-fit items-center lg:items-start'>
           <h3 className='text-2xl lg:text-3xl text-custom-blue'>Hello, World!</h3>
           <h2 className='text-3xl lg:text-5xl text-custom-white'>I'm Wesllen do Carmo</h2>
@@ -33,13 +33,13 @@ const Home = () => {
           className='w-90 md:w-130 lg:w-150'
         />
       </section>
-      <div className='flex flex-col gap-16 mb-8'>
+      <div role='main' className='flex flex-col gap-16 mb-8'>
         <About />
         <Skills />
         <Projects />
         <Contact />
       </div>
-      <footer className='border-t-2 px-8 py-4 border-custom-light-blue flex justify-between'>
+      <footer role='social media links' className='border-t-2 px-8 py-4 border-custom-light-blue flex justify-between'>
         <a href='#home'>
           <img
             src={WLogo}
@@ -48,9 +48,9 @@ const Home = () => {
           />
         </a>
         <div className='flex gap-8'>
-          <a href='https://github.com/WesllenCarmo' target='_blank'><FaGithub className='text-3xl text-custom-white' /></a>
-          <a href='https://www.linkedin.com/in/wesllen-araujo0907/' target='_blank'><FaLinkedin className='text-3xl text-custom-white' /></a>
-          <a href='mailto:wesllenaraujo.developer@gmail.com' target='_blank'><SiGmail className='text-3xl text-custom-white' /></a>
+          <a href='https://github.com/WesllenCarmo' target='_blank' aria-label="Click here to enter Wesllen's GitHub profile."><FaGithub className='text-3xl text-custom-white' /></a>
+          <a href='https://www.linkedin.com/in/wesllen-araujo0907/' target='_blank' aria-label="Click here to enter Wesllen's LinkedIn profile."><FaLinkedin className='text-3xl text-custom-white' /></a>
+          <a href='mailto:wesllenaraujo.developer@gmail.com' target='_blank' aria-label="Click here to email Wesllen."><SiGmail className='text-3xl text-custom-white' /></a>
         </div>
       </footer>
       <BackToTopButton />

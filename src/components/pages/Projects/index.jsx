@@ -4,7 +4,7 @@ import WeatherWebPreview from '../../../assets/weather-preview.webp'
 
 const Projects = () => {
   return (
-    <section id='projects' className='flex flex-col gap-16 text-custom-white px-8 lg:px-0'>
+    <section role="projects' exposition" id='projects' className='flex flex-col gap-16 text-custom-white px-8 lg:px-0'>
       <h2 className='text-5xl font-bold text-custom-light-blue self-center'>Projects</h2>
       <div className='flex w-full justify-center gap-12 lg:gap-24 flex-col lg:flex-row'>
         <img

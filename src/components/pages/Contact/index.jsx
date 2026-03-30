@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id='contact' className='flex flex-col gap-16 text-custom-white px-3 lg:px-0'>
+    <section role='contact information' id='contact' className='flex flex-col gap-16 text-custom-white px-3 lg:px-0'>
       <h2 className='text-custom-light-blue font-bold text-5xl self-center'>Contact</h2>
       <form method='POST' action="https://formsubmit.co/wesllenaraujo.developer@gmail.com" className='bg-custom-blue-modified font-bold text-2xl w-full lg:w-2/3 self-center flex flex-col px-8 py-8 gap-8 rounded-2xl'>
         <h3 className='text-4xl font-bold'>Get in touch</h3>
