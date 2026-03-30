@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <section role='skills information' id='skills' className='text-custom-blue flex flex-col gap-16 px-8'>
+    <section role='region' id='skills' className='text-custom-blue flex flex-col gap-16 px-8'>
       <h2 className='text-custom-light-blue text-5xl font-bold self-center'>Skills</h2>
       <div className='flex w-full justify-around flex-wrap gap-8'>
         <div className='w-100 rounded-2xl border-2 border-custom-blue flex flex-col px-8 py-4 gap-8'>

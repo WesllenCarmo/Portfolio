@@ -29,7 +29,7 @@ const NavBar = () => {
   }
 
   return (
-  <nav className='flex flex-col w-full border-b-2 border-custom-light-blue text-custom-white py-4 px-16'>
+  <nav role='navigation' className='flex flex-col w-full border-b-2 border-custom-light-blue text-custom-white py-4 px-16'>
     {isSmallScreen ? (
       <>
         {/* Top bar: logo + hamburger */}
@@ -41,7 +41,7 @@ const NavBar = () => {
               className='w-30'
             />
           </Link>
-          <button onClick={() => setIsOpen(!isOpen)} className='text-custom-light-blue text-7xl hover:text-custom-blue cursor-pointer transition duration-400'>
+          <button aria-label="Click here to toggle the navigation menu's button." onClick={() => setIsOpen(!isOpen)} className='text-custom-light-blue text-7xl hover:text-custom-blue cursor-pointer transition duration-400'>
             <GiHamburgerMenu />
           </button>
         </div>
