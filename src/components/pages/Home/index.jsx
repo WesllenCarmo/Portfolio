@@ -28,6 +28,7 @@ const Home = () => {
           </div>
         </div>
         <img
+          fetchPriority='high'
           src={WesllenIcon}
           alt="Wesllen image: A brown man with black glasses, dark brown eyes and coily hair."
           className='w-90 md:w-130 lg:w-150'
