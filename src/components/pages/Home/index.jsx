@@ -18,7 +18,7 @@ const Home = () => {
       <header role='banner' id='home' className="flex flex-col lg:flex-row lg:justify-around lg:items-center py-20 gap-24 lg:gap-0 lg:py-32 font-bold w-full items-center flex-wrap">
         <div className='flex flex-col gap-4 w-fit items-center lg:items-start'>
           <h3 className='text-2xl lg:text-3xl text-custom-blue'>{t("hero.greeting")}</h3>
-          <h2 className='text-3xl lg:text-5xl text-custom-white'>{t("hero.introduction")}</h2>
+          <h2 className='text-3xl lg:text-5xl text-custom-white text-center'>{t("hero.introduction")}</h2>
           <h1 className='text-5xl text-center lg:text-start lg:text-8xl text-custom-light-blue'>{t("hero.career.text1")} <br /> {t("hero.career.text2")}</h1>
           <div className='flex flex-col lg:flex-row gap-8 justify-between items-center flex-wrap md:gap-8'>
             <a href='/#contact' aria-label={t("hero.contactButton.label")} className='bg-custom-light-blue border-4 border-custom-light-blue text-custom-dark-blue text-3xl font-bold px-10 py-2 rounded-xl transition duration-400 hover:bg-custom-dark-blue hover:text-custom-light-blue'>
