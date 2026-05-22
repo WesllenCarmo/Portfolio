@@ -1,0 +1,91 @@
+{
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre mim",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, Mundo!",
+    "introduction": "Eu me chamo Wesllen do Carmo",
+    "career": {
+      "text1": "Desenvolvedor Web",
+      "text2": "Front End"
+    },
+    "contactButton": {
+      "text": "Contate-me",
+      "label": "Clique aqui para entrar em contato com Wesllen na área de contato."
+    },
+    "resumeButton": {
+      "text": "Baixar currículo",
+      "label": "Clique aqui para baixar o currículo de Wesllen."
+    },
+    "logoButtonLabel": "Clique aqui para visitar a página principal",
+    "imageLabel": "Imagem de Wesllen: um homem de pele parda, óculos preto, olhos de cor castanho escuro, e cabelo crespo",
+    "logoLabel": "Dois símbolos de setas com a letra 'W' no meio"
+  },
+  "menuLabel": "Clique aqui para abrir/fechar o menu de navegação",
+  "footer": {
+    "githubLabel": "Clique aqui para acessar o perfil de GitHub de Wesllen do Carmo",
+    "linkedinLabel": "Clique aqui para acessar o perfil de LinkedIn de Wesllen do Carmo",
+    "emailLabel": "Clique aqui para enviar um email para Wesllen do Carmo"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "description1": {
+      "text": "Sou um Desenvolvedor Web Front End e também um Técnico em Redes de Computadores que é apaixonado por",
+      "span": "entender e construir sistemas"
+    },
+    "description2": {
+      "text": "Além disso, sou um ex-aluno de intercâmbio do PGM (Programa Ganhe o Mundo), que é responsável por me levar a Vancouver (Canadá) para melhorar minhas",
+      "span": "habilidades em inglês"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "softSkills": [
+      "Organização",
+      "Pensamento lógico",
+      "Comunicação"
+    ],
+    "hardSkills": [
+      "Web Design Responsivo"
+    ],
+    "toolsTitle": "Ferramentas & Controle de Versão"
+  },
+  "projects": {
+    "title": "Projetos",
+    "project1": {
+      "description": "Tattoo é um website fictício de um estúdo de tatuagem com fotografias profissionais. O projeto foi desenvolvido com o objetvo de alcançar um melhor entendimento de Web Design.",
+      "imageLabel": "Imagem do projeto Tattuu: um website com menu de navegação, logo, e a seção hero com uma imagem de um tatuador trabalhando"
+    },
+    "project2": {
+      "description": "Forecast-DevClub é um website desenvolvido com ReactJS que utiliza a API OpenWeather para prover a previsão de tempo para a cidade selecionada pelo usuário. O projecto foi feito durante as áulas do perfil do Youtube DevClub.",
+      "imageLabel": "Imagem do projeto Forecast-DevClub: um website com fundo azul claro e com um painel da previsão de tempo de uma cidade selecionada pelo usuário"
+    },
+    "buttons": {
+      "repository": "Repositório do GitHub:",
+      "deploy": "Implantação:"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "formTitle": "Entre em contato",
+    "name": {
+      "first": "Primeiro nome:",
+      "last": "Sobrenome:",
+      "firstNameLabel": "Digite seu primeiro nome.",
+      "lastNameLabel": "Digite seu sobrenome."
+    },
+    "email": {
+      "text": "Endereço de Email:",
+      "label": "Digite seu endereço de email."
+    },
+    "message": {
+      "text": "Mensagem:",
+      "label": "Digite sua mensagem."
+    },
+    "button": "Enviar mensagem"
+  }
+}

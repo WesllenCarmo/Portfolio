@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, World!",
+    "introduction": "I'm Wesllen do Carmo",
+    "career": {
+      "text1": "Front End",
+      "text2": "Web Developer"
+    },
+    "contactButton": {
+      "text": "Contact me",
+      "label": "Click here to enter into contact with Wesllen in the contact area."
+    },
+    "resumeButton": {
+      "text": "Download resume",
+      "label": "Click here to download Wesllen's resume."
+    }
+  },
+  "menuLabel": "Click here to open/close the navigation menu",
+  "footer": {
+    "githubLabel": "Click here to access Wesllen do Carmo's GitHub profile",
+    "linkedinLabel": "Click here to access Wesllen do Carmo's LinkedIn profile",
+    "emailLabel": "Click here to send an email to Wesllen do Carmo"
+  },
+  "about": {
+    "title": "About me",
+    "description1": {
+      "text": "I'm a Front End Web Developer and also a Computer Network Technician who is passionate about",
+      "span": "understanding and building systems"
+    },
+    "description2": {
+      "text": "Besides, I'm an ex-exchange student of PGM (Programa Ganhe o Mundo), which is responsible for taking me to Vancouver (Canada) in order to improve my",
+      "span": "English skills"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "softSkills": ["Organization", "Logical thinking", "Communication"],
+    "hardSkills": ["Responsive Web design"],
+    "toolsTitle": "Tools & Version Control"
+  },
+  "projects": {
+    "title": "Projects",
+    "project1": {
+      "description": "Tattuu is a fictional website made of a tattoo studio with professional photographs; The project was made in order to achieve a better understanding of web design.",
+      "imageLabel": "Image of the Tattuu project: a website with a navigation menu, logo, and the hero section with an image of a tattoo artist working"
+    },
+    "project2": {
+      "description": "Forecast-DevClub is a website built with ReactJS that uses the API OpenWeather in order to provide the forecast for the user's selected city. The project was made during lessons of the DevClub Youtube Profile.",
+      "imageLabel": "Image of the Forecast-DevClub project: a website with a light blue background and a weather forecast panel for a user-selected city"
+    },
+    "buttons": {
+      "repository": "GitHub repository:",
+      "deploy": "Deploy:"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "formTitle": "Get in touch",
+    "name": {
+      "first": "First name:",
+      "last": "Last name:",
+      "firstNameLabel": "Enter your first name.",
+      "lastNameLabel": "Enter your last name."
+    },
+    "email": {
+      "text": "Email address:",
+      "label": "Enter your email address."
+    },
+    "message": {
+      "text": "Message:",
+      "label": "Enter your message."
+    },
+    "button": "Send message"
+  }
+}
