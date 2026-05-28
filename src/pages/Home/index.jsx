@@ -8,7 +8,7 @@ import Projects from '../Projects';
 import Contact from '../Contact';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
-import BackToTopButton from '../../components/common/BackToTopButton';
+import BackToTopButton from '../../components/layout/BackToTopButton';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
