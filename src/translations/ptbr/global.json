@@ -57,7 +57,14 @@
       "Web Design Responsivo",
       "Tailwind CSS"
     ],
-    "toolsTitle": "Ferramentas & Controle de Versão"
+    "tools": {
+      "title": "Ferramentas & Controle de Versão",
+      "tech": [
+        "Git",
+        "GitHub",
+        "Figma"
+      ] 
+    }
   },
   "projects": {
     "title": "Projetos",

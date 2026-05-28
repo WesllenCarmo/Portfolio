@@ -50,7 +50,10 @@
       "Responsive Web Design",
       "Tailwind CSS"
     ],
-    "toolsTitle": "Tools & Version Control"
+    "tools": {
+      "title": "Tools & Version Control",
+      "tech": ["Git", "GitHub", "Figma"]
+    }
   },
   "projects": {
     "title": "Projects",
