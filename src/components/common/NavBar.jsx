@@ -10,7 +10,6 @@ const NavBar = () => {
   const [t, i18n] = useTranslation("global");
 
   const [activeLang, setActiveLang] = useState("ptbr");
-  var newLang = activeLang === "en" ? "ptbr" : "en";
 
   const handleChangeLanguage = () => {
     const newLang = activeLang === "en" ? "ptbr" : "en";
@@ -61,13 +60,18 @@ const NavBar = () => {
                 className="w-30"
               />
             </Link>
-            <button
-              aria-label={t("menuLabel")}
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-custom-light-blue text-7xl hover:text-custom-blue cursor-pointer transition duration-400"
-            >
-              <GiHamburgerMenu />
-            </button>
+            <div className="flex gap-4 items-center">
+              <button onClick={handleChangeLanguage} className="cursor-pointer">
+                <img src={handleChangeFlag()} />
+              </button>
+              <button
+                aria-label={t("menuLabel")}
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-custom-light-blue text-7xl hover:text-custom-blue cursor-pointer transition duration-400"
+              >
+                <GiHamburgerMenu />
+              </button>
+            </div>
           </div>
 
           {/* Dropdown menu items */}
@@ -94,9 +98,6 @@ const NavBar = () => {
                   </a>
                 ),
               )}
-              <button onClick={handleChangeLanguage} className='cursor-pointer'>
-                <img src={handleChangeFlag()} />
-              </button>
             </div>
           )}
         </>
