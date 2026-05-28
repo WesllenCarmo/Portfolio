@@ -16,13 +16,13 @@ Welcome to my Portfolio! This project is a website in whose content is focused o
 
 ### Desktop
 <p align="center">
-    <img src="screenshot/portfolio-desktop-preview.webp" width="800" alt="A desktop preview of a website with a main title 'Front End' and an image of Wesllen, a brown man with dark brown eyes, and coily hair." />
+    <img src="screenshot/portfolioDesktopPreview.webp" width="800" alt="A desktop preview of a website with a main title 'Front End' and an image of Wesllen, a brown man with dark brown eyes, and coily hair." />
 </p>
 
 ### Mobile
 
 <p align="center">
-    <img src="screenshot/portfolio-mobile-preview.webp" width="350" alt="A mobile preview of a website with a main title 'Front End' and an image of Wesllen, a brown man with dark brown eyes, and coily hair."/>
+    <img src="screenshot/portfolioMobilePreview.webp" width="350" alt="A mobile preview of a website with a main title 'Front End' and an image of Wesllen, a brown man with dark brown eyes, and coily hair."/>
 </p>
 
 ## Live Preview
