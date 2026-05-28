@@ -50,7 +50,12 @@
       "Comunicação"
     ],
     "hardSkills": [
-      "Web Design Responsivo"
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS",
+      "Web Design Responsivo",
+      "Tailwind CSS"
     ],
     "toolsTitle": "Ferramentas & Controle de Versão"
   },

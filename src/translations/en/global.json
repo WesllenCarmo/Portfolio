@@ -42,7 +42,14 @@
   "skills": {
     "title": "Skills",
     "softSkills": ["Organization", "Logical thinking", "Communication"],
-    "hardSkills": ["Responsive Web design"],
+    "hardSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS",
+      "Responsive Web Design",
+      "Tailwind CSS"
+    ],
     "toolsTitle": "Tools & Version Control"
   },
   "projects": {
