@@ -69,10 +69,12 @@
   "projects": {
     "title": "Projetos",
     "project1": {
+      "title": "Tattuu",
       "description": "Tattoo é um website fictício de um estúdo de tatuagem com fotografias profissionais. O projeto foi desenvolvido com o objetvo de alcançar um melhor entendimento de Web Design.",
       "imageLabel": "Imagem do projeto Tattuu: um website com menu de navegação, logo, e a seção hero com uma imagem de um tatuador trabalhando"
     },
     "project2": {
+      "title": "Forecast-DevClub",
       "description": "Forecast-DevClub é um website desenvolvido com ReactJS que utiliza a API OpenWeather para prover a previsão de tempo para a cidade selecionada pelo usuário. O projecto foi feito durante as áulas do perfil do Youtube DevClub.",
       "imageLabel": "Imagem do projeto Forecast-DevClub: um website com fundo azul claro e com um painel da previsão de tempo de uma cidade selecionada pelo usuário"
     },

@@ -58,10 +58,12 @@
   "projects": {
     "title": "Projects",
     "project1": {
+      "title": "Tattuu",
       "description": "Tattuu is a fictional website made of a tattoo studio with professional photographs; The project was made in order to achieve a better understanding of web design.",
       "imageLabel": "Image of the Tattuu project: a website with a navigation menu, logo, and the hero section with an image of a tattoo artist working"
     },
     "project2": {
+      "title": "Forecast-DevClub",
       "description": "Forecast-DevClub is a website built with ReactJS that uses the API OpenWeather in order to provide the forecast for the user's selected city. The project was made during lessons of the DevClub Youtube Profile.",
       "imageLabel": "Image of the Forecast-DevClub project: a website with a light blue background and a weather forecast panel for a user-selected city"
     },
